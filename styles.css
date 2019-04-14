@@ -348,6 +348,10 @@ section {
     max-width: 35rem;
   }
 }
-.mfp-bg {
+.mfp-container {
   max-height: 100vh;
 }
+.mfp-content {
+  max-height: 100%;
+}
+
