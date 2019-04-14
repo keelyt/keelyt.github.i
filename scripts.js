@@ -6,7 +6,20 @@ $(".vid-link").each(function() {
     items: {
       src: href
     },
-    type: "iframe"
+    diableOn: 400,
+    type: "iframe",
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+    fixedContentPos: true,
+    callbacks: {
+      open: function() {
+        $('#header').hide();
+      },
+      close: function() {
+        $('#header').show();
+      }
+    }
   });
 });
 
