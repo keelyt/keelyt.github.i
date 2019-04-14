@@ -6,21 +6,22 @@ $(".vid-link").each(function() {
     items: {
       src: href
     },
-    callbacks: {
-      open: function() {
-        $('#header').hide();
-      },
-      close: function() {
-        $('#header').show();
-      }
-    },
     diableOn: 400,
     type: "iframe",
     mainClass: 'mfp-fade',
     removalDelay: 160,
     preloader: false,
     fixedContentPos: true,
-    alignTop: true
+    callbacks: {
+      open: function() {
+        $('#header').hide();
+        $('main').css('margin-top', 0);
+      },
+      close: function() {
+        $('#header').show();
+        $('main').css('margin-top', 40);
+      }
+    }
   });
 });
 
