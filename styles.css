@@ -348,11 +348,9 @@ section {
     max-width: 35rem;
   }
 }
-.vid-popup {
-/*     max-width: 320px !important; */
-    width: 100%;
+.mfp-content {
+  width: 100%;
   height: auto;
-    margin: auto;
-    max-height: 100vh;
-/*     padding: 140% 16px 0 13px !important; */
+  max-height: 100vh;
+  margin: auto;
 }
