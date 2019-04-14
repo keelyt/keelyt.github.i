@@ -348,9 +348,6 @@ section {
     max-width: 35rem;
   }
 }
-.mfp-content {
-  width: 100%;
-  height: auto;
+.mfp-container {
   max-height: 100vh;
-  margin: auto;
 }
