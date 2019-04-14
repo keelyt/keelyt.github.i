@@ -6,12 +6,6 @@ $(".vid-link").each(function() {
     items: {
       src: href
     },
-    diableOn: 400,
-    type: "iframe",
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
-    fixedContentPos: true,
     callbacks: {
       open: function() {
         $('#header').hide();
@@ -19,7 +13,13 @@ $(".vid-link").each(function() {
       close: function() {
         $('#header').show();
       }
-    }
+    },
+    diableOn: 400,
+    type: "iframe",
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+    fixedContentPos: true
   });
 });
 
