@@ -8,6 +8,12 @@ $(".vid-link").each(function() {
     },
     diableOn: 400,
     type: "iframe",
+    iframe: {
+      markup: '<div class="mfp-iframe-scaler vid-popup">'+
+      '<div class="mfp-close"></div>'+
+      '<iframe class="mfp-iframe" frameborder="0" allowfullscreen>            </iframe>'+
+      '</div>'
+    },
     mainClass: 'mfp-fade',
     removalDelay: 160,
     preloader: false,
@@ -15,11 +21,9 @@ $(".vid-link").each(function() {
     callbacks: {
       open: function() {
         $('#header').hide();
-        $('main').css('margin-top', 0);
       },
       close: function() {
         $('#header').show();
-        $('main').css('margin-top', 40);
       }
     }
   });
