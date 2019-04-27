@@ -288,7 +288,7 @@ section {
   right: 0;
   opacity: 1 !important;
 }
-.vid-img-overlay {
+/* .vid-img-overlay {
   display: block;
   position: absolute;
   top: 0;
@@ -299,7 +299,7 @@ section {
 .vid-img-overlay:hover {
   background-image: linear-gradient(transparent, #000);
   opacity: 0.3;
-}
+} */
 @media (min-width: 900px) {
   .section-info {
   flex-direction: row;
