@@ -8,16 +8,11 @@ $(".vid-link").each(function() {
     },
     diableOn: 400,
     type: "iframe",
-    // iframe: {
-    //   markup: '<div class="mfp-iframe-scaler vid-popup">'+
-    //   '<div class="mfp-close"></div>'+
-    //   '<iframe class="mfp-iframe" frameborder="0" allowfullscreen>            </iframe>'+
-    //   '</div>'
-    // },
     mainClass: 'mfp-fade',
     removalDelay: 160,
     preloader: false,
     fixedContentPos: true,
+    closeBtnInside: false,
     callbacks: {
       open: function() {
         $('#header').hide();
