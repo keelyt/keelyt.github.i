@@ -19,5 +19,5 @@
   <path class="a" d="M231.7.8h7.83l12.3,34.25H252V.8h8.14V57.65h-7.67L240,23.47h-.16V57.65H231.7Z"/> -->
   <polygon class="b" points="0 0.77 0 57.62 15.51 57.62 15.51 16.28 41.34 16.28 41.34 57.62 56.85 57.62 56.85 0.77 0 0.77"/>
   <rect class="b" x="20.67" y="21.44" width="15.51" height="36.18"/>
-  <text x="72.73" y="0" fill="#bade00">Binding Tech</text>
+  <text x="72.73" y="57.62" fill="#bade00">Binding Tech</text>
 </svg>
