@@ -11,6 +11,10 @@
         font-weight: normal;
         font-style: normal;
       }
+      @font-face {
+        font-family: "Kanit";
+        src: url('https://fonts.googleapis.com/css?family=Kanit');
+      }
     </style>
   </defs>
     <title>Asset 1</title>
