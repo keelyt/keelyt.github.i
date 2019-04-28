@@ -1,20 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 522.74 58.13">
   <defs>
-    <style>
+    <style type="text/css">
        @import url('https://fonts.googleapis.com/css?family=Kanit');
       .a{fill:#fff;}
       .b{fill:#bade00;}
-      .c {
-        font-size: 88.7px;
-        font-family: 'Kanit';
-        src: url('https://fonts.googleapis.com/css?family=Kanit');
-        font-weight: normal;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: "Kanit";
-        src: url('https://fonts.googleapis.com/css?family=Kanit');
-      }
+      .c {font-size: 88.7px;}
+      .c {font-family: 'Kanit';}
     </style>
   </defs>
     <title>Asset 1</title>
