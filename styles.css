@@ -280,6 +280,9 @@ text {
   max-width: 100%;
   margin: auto;
 }
+.mfp-content {
+  max-height: 90vh;
+ }
 .section-info-img-right img {
   display: block;
   max-width: 100%;
@@ -543,6 +546,3 @@ footer .contact {
   padding: 4rem 0;
   text-align: center;
 }
-.mfp-content {
-  max-height: 90vh;
- }
