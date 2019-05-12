@@ -20,7 +20,7 @@
         font-size: 91px;
         letter-spacing: -1px;
         text-align: center;
-        fill="#fff";
+        color="#fff";
       }
     </style>
 <!--   </defs> -->
