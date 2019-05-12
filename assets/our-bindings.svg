@@ -1,7 +1,9 @@
 <svg viewBox="0 0 406 59" xmlns="http://www.w3.org/2000/svg">
-<!--   <defs> -->
+  <defs>
+    <link href="https://fonts.googleapis.com/css?family=Teko:300" rel="stylesheet">
     <style type="text/css">
-      @import url('https://fonts.googleapis.com/css?family=Teko:300');
+        
+<!--       @import url('https://fonts.googleapis.com/css?family=Teko:300'); -->
 <!--       src: url(https://fonts.gstatic.com/s/teko/v8/LYjNdG7kmE0gfaN9pQ.woff2) format('woff2'); -->
       text {
         text-transform: uppercase;
@@ -12,7 +14,7 @@
         text-align: center;
       }
     </style>
-<!--   </defs> -->
+  </defs>
   <polygon points="0 0.77 0 57.62 15.51 57.62 15.51 16.28 41.34 16.28 41.34 57.62 56.85 57.62 56.85 0.77 0 0.77" fill="#bade00"/>
   <rect x="20.67" y="21.44" width="15.51" height="36.18" fill="#bade00"/>
   <text x="72.73" y="58.13" fill="#fff">Our Bindings</text>
