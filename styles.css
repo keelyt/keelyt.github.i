@@ -471,7 +471,7 @@ text {
     transform: translateX(254%);
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .slider > figure.active > figcaption > h2 {
     font-size: 1.5rem;
   }
