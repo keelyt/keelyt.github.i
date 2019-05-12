@@ -2,16 +2,11 @@
 <!--   <defs> -->
     <style type="text/css">
         @import url('https://fonts.googleapis.com/css?family=Teko:300');
-<!--       @font-face {
+      @font-face {
         font-family: 'Teko';
-        font-style: normal;
         font-weight: 300;
         src: url(https://fonts.gstatic.com/s/teko/v8/LYjNdG7kmE0gfaN9pQ.woff2) format('woff2');
-        font-size: 91px;
-        letter-spacing: -1px;
-        text-align: center;
-        text-transform: uppercase;
-      } -->
+      }
       text {
         src: url(https://fonts.gstatic.com/s/teko/v8/LYjNdG7kmE0gfaN9pQ.woff2) format('woff2');
         text-transform: uppercase;
