@@ -2,29 +2,23 @@
 <!--   <defs> -->
     <style type="text/css">
       @font-face {
-        font-family: 'Teko';
+<!--         font-family: 'Teko';
         ont-style: normal;
-        font-weight: 300;
+        font-weight: 300; -->
         src: url(https://fonts.gstatic.com/s/teko/v8/LYjNdG7kmE0gfaN9pQ.woff2) format('woff2');
-      }
-      polygon {
-        fill="#bade00"
-      }
-      rect {
-        fill="#bade00"
       }
       text {
         text-transform: uppercase;
         font-family: 'Teko';
+        src: url(https://fonts.gstatic.com/s/teko/v8/LYjNdG7kmE0gfaN9pQ.woff2) format('woff2');
         font-weight: 300;
         font-size: 91px;
         letter-spacing: -1px;
         text-align: center;
-        color="#fff";
       }
     </style>
 <!--   </defs> -->
-  <polygon points="0 0.77 0 57.62 15.51 57.62 15.51 16.28 41.34 16.28 41.34 57.62 56.85 57.62 56.85 0.77 0 0.77"/>
-  <rect x="20.67" y="21.44" width="15.51" height="36.18"/>
-  <text x="72.73" y="58.13">Our Bindings</text>
+  <polygon points="0 0.77 0 57.62 15.51 57.62 15.51 16.28 41.34 16.28 41.34 57.62 56.85 57.62 56.85 0.77 0 0.77" fill="#bade00"/>
+  <rect x="20.67" y="21.44" width="15.51" height="36.18" fill="#bade00"/>
+  <text x="72.73" y="58.13" fill="#fff">Our Bindings</text>
 </svg>
