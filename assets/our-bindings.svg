@@ -1,10 +1,7 @@
 <svg viewBox="0 0 406 59" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <link href="https://fonts.googleapis.com/css?family=Teko:300" rel="stylesheet">
+    <link xmlns="http://www.w3.org/1999/xhtml" href="https://fonts.googleapis.com/css?family=Teko:300" rel="stylesheet" type="text/css" />
     <style type="text/css">
-        
-<!--       @import url('https://fonts.googleapis.com/css?family=Teko:300'); -->
-<!--       src: url(https://fonts.gstatic.com/s/teko/v8/LYjNdG7kmE0gfaN9pQ.woff2) format('woff2'); -->
       text {
         text-transform: uppercase;
         font-family: 'Teko';
