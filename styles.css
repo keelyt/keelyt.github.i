@@ -541,6 +541,7 @@ form input {
 footer .contact {
   display: block;
   width: 80%;
+  max-width: 70rem;
   border-top: 0.15rem solid #555;
   margin: auto;
   padding: 4rem 0;
