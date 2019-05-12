@@ -14,7 +14,7 @@
         fill="#bade00"
       }
       text {
-<!--         text-transform: uppercase; -->
+        text-transform: uppercase;
         font-family: 'Teko';
         font-weight: 300;
         font-size: 91px;
