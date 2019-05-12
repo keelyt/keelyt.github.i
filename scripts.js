@@ -9,7 +9,6 @@ $(".vid-link").each(function() {
     diableOn: 400,
     type: "iframe",
     mainClass: "mfp-fade",
-    removalDelay: 160,
     preloader: false,
     fixedContentPos: true,
     closeBtnInside: false,
