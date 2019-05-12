@@ -3,7 +3,7 @@
     <style type="text/css">
       @font-face {
         font-family: "Teko";
-        src: url("https://fonts.gstatic.com/s/teko/v8/LYjCdG7kmE0gdQhfsCVgqGIu.woff2");
+        src: url(https://fonts.gstatic.com/s/teko/v8/LYjCdG7kmE0gdQhfsCRgqA.woff2) format('woff2');
       }
       text {
         text-transform: uppercase;
