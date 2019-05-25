@@ -1,5 +1,5 @@
 var vid = document.getElementById("video");
-if (vid.readyState > HAVE_FUTURE_DATA) {
+if (vid.readyState == 4) {
   $("#video-fallback").hide();
 };
 // vid.addEventListener("canplay", function() {
