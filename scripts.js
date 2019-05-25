@@ -1,4 +1,5 @@
-if($("#video").readyState > 3){
+var vid = document.getElementById("video");
+if(vid.readyState > 3){
    $("#video-fallback").hide();
 };
 
