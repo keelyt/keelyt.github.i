@@ -1,6 +1,6 @@
 var vid = document.getElementById("video");
 // if(vid.readyState > 3){
-vid.onplaying = function() {
+vid.onloadedmetadata = function() {
    $("#video-fallback").hide();
 };
 
