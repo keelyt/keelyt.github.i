@@ -1,5 +1,6 @@
 var vid = document.getElementById("video");
-if(vid.readyState > 3){
+// if(vid.readyState > 3){
+vid.onplaying = function() {
    $("#video-fallback").hide();
 };
 
