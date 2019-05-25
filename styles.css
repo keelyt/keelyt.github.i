@@ -177,26 +177,26 @@ nav {
   display: block;
   min-width: 100%;
   min-height: 100%;
-  z-index: 1;
+/*   z-index: 1; */
 }
 #video-fallback {
   position: absolute;
   display: block;
   min-width: 100%;
   min-height: 100%;
-  z-index: 2;
+/*   z-index: 2; */
 }
 #title {
   display: block;
   padding: 0;
   margin: 0;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
 }
 #intro-info-container {
   display: block;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
 }
 #intro-info {
   display: block;
