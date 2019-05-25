@@ -1,6 +1,6 @@
-if(document.querySelector("#video").canplay){
+document.querySelector("#video").oncanplay = function(){
    document.getElementById("video-fallback").hide();
-}
+};
 
 $(".vid-link").each(function() {
   var href = $(this)
