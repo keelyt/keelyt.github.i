@@ -5,10 +5,8 @@ var vid = document.getElementById("video");
 // vid.addEventListener("canplaythrough", function() {
 //   $("#video-fallback").hide();
 // });
-vid.addEventListener("readystatechange", function() {
-  if (vid.readyState > 3) {
+vid.addEventListener("loadeddata ", function() {
     $("#video-fallback").hide();
-  };
 });
  
 $(".vid-link").each(function() {
