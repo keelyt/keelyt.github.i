@@ -78,7 +78,7 @@ function updateListeners() {
 }
 
 function moveRight() {
-  $current = $('.slider figure.active').first();
+  $current = $(".slider figure.active").first();
   if ($current.next("figure").length != 0) {
     $next = $current.next("figure");
     $next.removeClass("next-img");
@@ -98,11 +98,11 @@ function moveRight() {
   } else {
     $(".slider span.next").addClass("hidden-btn");
   }
-  updateListeners();  
+  updateListeners();
 };
 
 function moveLeft() {
-  $current = $('.slider figure.active').first();
+  $current = $(".slider figure.active").first();
   if ($current.prev("figure").length != 0) {
     $prev = $current.prev("figure");
     $prev.removeClass("prev-img");
