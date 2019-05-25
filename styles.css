@@ -184,8 +184,8 @@ nav {
   min-width: 100%;
   min-height: 100%;
   z-index: 1;
-  height: 100%;
-  width: auto;
+  width: 100%;
+/*   h: auto; */
 }
 .intro-vid-overlay {
   display: block;
