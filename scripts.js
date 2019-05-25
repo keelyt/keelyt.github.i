@@ -1,4 +1,4 @@
-if(document.querySelector("#video").playing){
+if(document.querySelector("#video").canplay){
    document.getElementById("video-fallback").hide();
 }
 
