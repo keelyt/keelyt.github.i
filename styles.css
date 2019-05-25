@@ -172,25 +172,6 @@ nav {
   background-image: linear-gradient(transparent, #000);
   margin-bottom: 7rem;
 }
-#title {
-  display: block;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-#intro-info-container {
-  display: block;
-  width: 100%;
-}
-#intro-info {
-  display: block;
-  width: 36rem;
-  max-width: 95%;
-  text-align: justify;
-  margin: auto;
-  padding: 0 0 1rem;
-  color: #fff;
-}
 #video {
   position: absolute;
   display: block;
@@ -204,6 +185,27 @@ nav {
   min-width: 100%;
   min-height: 100%;
 /*   z-index: -1; */
+}
+#title {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  z-index: 1;
+}
+#intro-info-container {
+  display: block;
+  width: 100%;
+  z-index: 1;
+}
+#intro-info {
+  display: block;
+  width: 36rem;
+  max-width: 95%;
+  text-align: justify;
+  margin: auto;
+  padding: 0 0 1rem;
+  color: #fff;
 }
 section {
   display: flex;
