@@ -1,4 +1,4 @@
-document.querySelector("#video").oncanplaythrough = function(){
+if($("#video").readyState > 3){
    $("#video-fallback").hide();
 };
 
