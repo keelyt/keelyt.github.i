@@ -1,5 +1,5 @@
 document.querySelector("#video").oncanplay = function(){
-   document.getElementById("video-fallback").hide();
+   $("#video-fallback").hide();
 };
 
 $(".vid-link").each(function() {
