@@ -171,20 +171,19 @@ nav {
   justify-content: flex-end;
   background-image: linear-gradient(transparent, #000);
   margin-bottom: 7rem;
+  z-index: 1;
 }
 #video {
   position: absolute;
   display: block;
   min-width: 100%;
   min-height: 100%;
-/*   z-index: 1; */
 }
 #video-fallback {
   position: absolute;
   display: block;
   min-width: 100%;
   min-height: 100%;
-/*   z-index: 2; */
 }
 #title {
   display: block;
