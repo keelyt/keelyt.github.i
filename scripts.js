@@ -1,6 +1,6 @@
 var vid = document.getElementById("video");
 // if (vid.readyState > 3) {
-vid.addEventListener("canplay", function() {
+vid.addEventListener("canplaythrough", function() {
   $("#video-fallback").hide();
 };
 
