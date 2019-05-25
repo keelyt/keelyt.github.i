@@ -1,6 +1,6 @@
 var vid = document.getElementById("video");
 // if (vid.readyState > 3) {
-vid.onCanplaythrough = function() {
+vid.onCanplay = function() {
   $("#video-fallback").hide();
 };
 
