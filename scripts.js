@@ -2,10 +2,15 @@ var vid = document.getElementById("video");
 // if (vid.readyState > 3) {
 //   $("#video-fallback").hide();
 // };
-vid.addEventListener("canplaythrough", function() {
-  $("#video-fallback").hide();
+// vid.addEventListener("canplaythrough", function() {
+//   $("#video-fallback").hide();
+// });
+vid.addEventListener("readystatechange", function() {
+  if (vid.readyState > 3) {
+    $("#video-fallback").hide();
+  };
 });
-
+ 
 $(".vid-link").each(function() {
   var href = $(this)
     .find("a")
