@@ -5,7 +5,7 @@ var vid = document.getElementById("video");
 // vid.addEventListener("canplaythrough", function() {
 //   $("#video-fallback").hide();
 // });
-vid.addEventListener("loadeddata ", function() {
+vid.onloadeddata = function() {
     $("#video-fallback").hide();
 });
  
