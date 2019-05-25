@@ -1,10 +1,10 @@
 var vid = document.getElementById("video");
-if (vid.readyState == 4) {
-  $("#video-fallback").hide();
-};
-// vid.addEventListener("canplay", function() {
+// if (vid.readyState > 3) {
 //   $("#video-fallback").hide();
-// });
+// };
+vid.addEventListener("canplaythrough", function() {
+  $("#video-fallback").hide();
+});
 
 $(".vid-link").each(function() {
   var href = $(this)
