@@ -1,19 +1,3 @@
-var v = document.getElementById("video")
-var sources = v.querySelectorAll('source'),
-  lastsource = sources[sources.length-1];
-lastsource.addEventListener('error', function(ev) {
-  var img = v.querySelector("img");
-  if (img) {
-    v.parentNode.replaceChild(img, video);
-}, false);  
-
-// function fallback(video) {
-//   var img = video.querySelector("img");
-//   if (img) {
-//     video.parentNode.replaceChild(img, video);
-//   }
-// }
-
 $(".vid-link").each(function() {
   var href = $(this)
     .find("a")
