@@ -2,11 +2,8 @@ var vid = document.getElementById("video");
 // if (vid.readyState > 3) {
 //   $("#video-fallback").hide();
 // };
-// vid.addEventListener("canplaythrough", function() {
-//   $("#video-fallback").hide();
-// });
-vid.onloadeddata = function() {
-    $("#video-fallback").hide();
+vid.addEventListener("canplay", function() {
+  $("#video-fallback").hide();
 });
  
 $(".vid-link").each(function() {
