@@ -1,8 +1,10 @@
 var vid = document.getElementById("video");
-// if (vid.readyState > 3) {
-vid.addEventListener("canplaythrough", function() {
+if (vid.readyState > HAVE_FUTURE_DATA) {
   $("#video-fallback").hide();
-});
+};
+// vid.addEventListener("canplay", function() {
+//   $("#video-fallback").hide();
+// });
 
 $(".vid-link").each(function() {
   var href = $(this)
