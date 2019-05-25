@@ -1,7 +1,7 @@
 var vid = document.getElementById("video");
 // if(vid.readyState > 3){
 vid.onloadedmetadata = function() {
-   $("#video-fallback").hide();
+   $("#video-fallback").style.visibility = "hidden";
 };
 
 $(".vid-link").each(function() {
