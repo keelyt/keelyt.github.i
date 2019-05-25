@@ -1,7 +1,7 @@
-var vid = document.getElementById("video");
-if(vid.readyState > 3){
-   $("#video-fallback").hide();
-};
+// var vid = document.getElementById("video");
+// if(vid.readyState > 3){
+//    $("#video-fallback").hide();
+// };
 
 $(".vid-link").each(function() {
   var href = $(this)
