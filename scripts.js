@@ -1,7 +1,8 @@
 function fallback(video) {
-  var img = video.querySelector('img');
-  if (img)
+  var img = video.querySelector("img");
+  if (img) {
     video.parentNode.replaceChild(img, video);
+  }
 }
 
 $(".vid-link").each(function() {
