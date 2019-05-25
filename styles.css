@@ -198,7 +198,7 @@ nav {
   min-height: 100%;
   z-index: -1;
 }
-video::-webkit-media-controls-start-playback-button {
+#video::-webkit-media-controls-start-playback-button {
   display: none !important;
 }
 section {
