@@ -1,3 +1,7 @@
+if(document.querySelector("#video").playing){
+   document.getElementById("video-fallback").hide();
+}
+
 $(".vid-link").each(function() {
   var href = $(this)
     .find("a")
