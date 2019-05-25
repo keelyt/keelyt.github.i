@@ -166,7 +166,7 @@ nav {
   margin: 0;
   padding: 0;
   height: calc(100vh - 40px);
-/*   overflow: hidden; */
+  overflow: hidden;
   position: relative;
   justify-content: flex-end;
   background-image: linear-gradient(transparent, #000);
