@@ -196,25 +196,14 @@ nav {
   display: block;
   min-width: 100%;
   min-height: 100%;
+  z-index: -2;
+}
+#video-fallback {
+  position: absolute;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
   z-index: -1;
-}
-#video::-webkit-media-controls-start-playback-button {
-  display: none !important;
-}
-#video::-webkit-media-controls-panel {
-  display: none!important;
-  -webkit-appearance: none;
-}
-#video::-webkit-media-controls-play-button {
-  display: none!important;
-  -webkit-appearance: none;
-}
-#video::-webkit-media-controls-start-playback-button {
-  display: none!important;
-  -webkit-appearance: none;
-}
-#video::-webkit-media-controls {
-    opacity: 0;
 }
 section {
   display: flex;
