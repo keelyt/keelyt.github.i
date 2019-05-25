@@ -184,9 +184,11 @@ nav {
   min-width: 100%;
   min-height: 100%;
   z-index: 1;
-  width: 100%;
-/*   h: auto; */
 }
+#video-fallback img {
+  object-fit: cover;
+}
+
 .intro-vid-overlay {
   display: block;
   position: absolute;
