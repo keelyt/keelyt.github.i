@@ -169,7 +169,7 @@ nav {
   overflow: hidden;
   position: relative;
   justify-content: flex-end;
-  background-image: linear-gradient(transparent, #000);
+/*   background-image: linear-gradient(transparent, #000); */
   margin-bottom: 7rem;
 }
 #video {
