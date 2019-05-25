@@ -1,4 +1,4 @@
-document.querySelector("#video").oncanplay = function(){
+document.querySelector("#video").oncanplaythrough = function(){
    $("#video-fallback").hide();
 };
 
