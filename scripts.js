@@ -1,6 +1,6 @@
 var vid = document.getElementById("video");
-if(vid.readyState > 3){
-   document.getElementById("video-fallback").style.display = 'none';
+if (vid.readyState > 3) {
+  $("#video-fallback").hide();
 };
 
 $(".vid-link").each(function() {
