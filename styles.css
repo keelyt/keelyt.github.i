@@ -181,13 +181,13 @@ nav {
 #video-fallback {
   position: absolute;
   display: block;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://now-snowboarding.com/admin/resources/slash-header-w1500.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   z-index: 1;
-  background-color: red;
-}
-#video-fallback img {
-  object-fit: cover;
 }
 
 .intro-vid-overlay {
