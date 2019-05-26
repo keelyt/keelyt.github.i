@@ -2,7 +2,7 @@ var vid = document.getElementById("video");
 // if (vid.readyState > 3) {
 //   $("#video-fallback").hide();
 // };
-vid.addEventListener("timeupdate ", function() {
+vid.addEventListener("timeupdate", function() {
   $("#video-fallback").hide();
 });
  
