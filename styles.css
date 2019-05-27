@@ -165,6 +165,8 @@ nav {
 #intro {
   margin: 0;
   padding: 0;
+  height: -webkit-calc(100vh - 40px);
+  height: -moz-calc(100vh - 40px);
   height: calc(100vh - 40px);
   overflow: hidden;
   position: relative;
